@@ -18,13 +18,20 @@ Startline aims to become:
 I plan to gradually move performance-critical parts (like the HTTP server and router) to Rust once the Python version is stable
 
 
-## 🧩 Planned Features
-- [ ] Simple routing system
-- [ ] HTTP request parsing (method, path, headers)  
-- [ ] `App` class to register and serve routes  
-- [ ] Basic `Request` and `Response` classes  
-- [ ] Static file serving  
-- [ ] Threaded server mode  
+## Roadmap
+
+- [ ] Implement basic HTTP server using Python's socket module
+- [ ] Add request parsing (method, path, headers, body)
+- [ ] Create Request and Response classes
+- [ ] Build simple routing system
+- [ ] Implement App class to manage routes and run the server
+- [ ] Add error handling (404, 500 responses)
+- [ ] Support static file serving
+- [ ] Add threaded (concurrent) server mode
+- [ ] Write basic examples and tests
+- [ ] Document core API (App, Router, Request, Response, ServerInterface)
+- [ ] Document architecture & design (server loop, middleware flow, planned Rust integration)
+- [ ] Optimize core for future Rust integration
 
 ---
 
