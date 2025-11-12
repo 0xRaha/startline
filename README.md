@@ -20,11 +20,11 @@ I plan to gradually move performance-critical parts (like the HTTP server and ro
 
 ## Roadmap
 
-- [ ] Implement basic HTTP server using Python's socket module
-- [ ] Add request parsing (method, path, headers, body)
-- [ ] Create Request and Response classes
-- [ ] Build simple routing system
-- [ ] Implement App class to manage routes and run the server
+- [x] Implement basic HTTP server using Python's socket module
+- [x] Add request parsing (method, path, headers, body)
+- [x] Create Request and Response classes
+- [x] Build simple routing system
+- [x] Implement App class to manage routes and run the server
 - [ ] Add error handling (404, 500 responses)
 - [ ] Support static file serving
 - [ ] Add threaded (concurrent) server mode
